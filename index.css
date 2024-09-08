@@ -155,7 +155,7 @@
     color: grey;
 }
 .img-des>p{
-    max-width: 30ch; /* Adjust number for character limit */
+    max-width: 25ch; /* Adjust number for character limit */
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -179,7 +179,8 @@
   }
   .cartBtn{
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: start;
   }
   .cartBtn>button{
@@ -430,7 +431,7 @@ width: 100%;
     text-decoration: none;
     font-size: 26px;
     margin-right: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(122, 122, 122);
 }
 .carticon:hover{
     text-decoration: none;

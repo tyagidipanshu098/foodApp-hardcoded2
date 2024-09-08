@@ -27998,10 +27998,32 @@ const Card = ({ info })=>{
                         lineNumber: 14,
                         columnNumber: 17
                     }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "cartBtn",
                         children: [
-                            "Ratings: ",
-                            info.avgRating
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                children: [
+                                    "Ratings: ",
+                                    info.avgRating
+                                ]
+                            }, void 0, true, {
+                                fileName: "src/Components/Card.js",
+                                lineNumber: 16,
+                                columnNumber: 17
+                            }, undefined),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+                                    className: "fa-regular fa-heart"
+                                }, void 0, false, {
+                                    fileName: "src/Components/Card.js",
+                                    lineNumber: 17,
+                                    columnNumber: 29
+                                }, undefined)
+                            }, void 0, false, {
+                                fileName: "src/Components/Card.js",
+                                lineNumber: 17,
+                                columnNumber: 21
+                            }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/Components/Card.js",

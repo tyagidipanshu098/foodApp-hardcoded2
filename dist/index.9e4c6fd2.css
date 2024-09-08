@@ -134,7 +134,7 @@
 .img-des > p {
   white-space: nowrap;
   text-overflow: ellipsis;
-  max-width: 30ch;
+  max-width: 25ch;
   overflow: hidden;
 }
 
@@ -151,7 +151,8 @@
 }
 
 .cartBtn {
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: start;
   display: flex;
 }
@@ -389,7 +390,7 @@
 }
 
 .carticon {
-  color: #000;
+  color: #7a7a7a;
   margin-right: 20px;
   font-size: 26px;
   text-decoration: none;

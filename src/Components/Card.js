@@ -12,7 +12,10 @@ const Card = ({ info }) => {
                 <p>Price: {info.costForTwo}</p>
                 <p className="cuisines">{info.cuisines.join(", ")}</p>
                 <p>Area: {info.locality}</p>
+                <div className="cartBtn">
                 <p>Ratings: {info.avgRating}</p>
+                    <button><i className="fa-regular fa-heart"></i></button>
+                </div>
             </div>
         </div>
     );
